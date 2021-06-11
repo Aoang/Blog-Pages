@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="https://www.w3.org/2005/Atom">
+  <title>Aoang&#39;s Blog</title>
+  
+  <subtitle>岁月在电波中流淌，人生在音乐中升华</subtitle>
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="https://01.946771200.xyz/"/>
+  <updated>2021-06-11T08:02:37.187Z</updated>
+  <id>https://01.946771200.xyz/</id>
+  
+  <author>
+    <name>Aoang</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>茅屋为秋风所破歌</title>
+    <link href="https://01.946771200.xyz/2021/kayabuki-no-yane-ga-akikaze-ni-kowasa-reta-koto-o-utau.html"/>
+    <id>https://01.946771200.xyz/2021/kayabuki-no-yane-ga-akikaze-ni-kowasa-reta-koto-o-utau.html</id>
+    <published>2021-06-09T08:00:00.000Z</published>
+    <updated>2021-06-11T08:02:37.187Z</updated>
+    
+    <content type="html"><![CDATA[<p>八月秋高风怒号，卷我屋上三重茅。<br>茅飞渡江洒江郊，高者挂罥长林梢，下者飘转沉塘坳。</p><p>南村群童欺我老无力，忍能对面为盗贼。<br>公然抱茅入竹去，唇焦口燥呼不得，归来倚杖自叹息。</p><p>俄顷风定云墨色，秋天漠漠向昏黑。<br>布衾多年冷似铁，娇儿恶卧踏里裂。<br>床头屋漏无干处，雨脚如麻未断绝。<br>自经丧乱少睡眠，长夜沾湿何由彻！</p><p>安得广厦千万间，大庇天下寒士俱欢颜，风雨不动安如山。<br>呜呼！何时眼前突兀见此屋，吾庐独破受冻死亦足！</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;八月秋高风怒号，卷我屋上三重茅。&lt;br&gt;茅飞渡江洒江郊，高者挂罥长林梢，下者飘转沉塘坳。&lt;/p&gt;
+&lt;p&gt;南村群童欺我老无力，忍能对面为盗贼。&lt;br&gt;公然抱茅入竹去，唇焦口燥呼不得，归来倚杖自叹息。&lt;/p&gt;
+&lt;p&gt;俄顷风定云墨色，秋天漠漠向昏黑。&lt;br&gt;布衾多年冷似铁，娇儿恶
+      
+    
+    </summary>
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>2020 年总结</title>
+    <link href="https://01.946771200.xyz/2020/summary-2020.html"/>
+    <id>https://01.946771200.xyz/2020/summary-2020.html</id>
+    <published>2020-12-27T02:10:05.000Z</published>
+    <updated>2021-06-11T08:02:37.187Z</updated>
+    
+    <content type="html"><![CDATA[<p>时间是让人猝不及防的东西<br>晴时有风阴有时雨<br>争不过朝夕又念着往昔<br>偷走了青丝却留住一个你  </p><p>曾经以为很遥远的 2020<br>只剩下最后的一个月了<br>虽然大抵都是风雨多过阳光<br>这一年我们经历了很多<br>除了我们共同经历了疫情之后  </p><p>有人迎来了特别的毕业典礼<br>也有人经历了艰难的失业时期<br>有人结婚了<br>有人离婚了<br>……  </p><p>那么在这个特别的 2020<br>你都经历了些什么<br>在即将结束的这一个月<br>你有什么想说的  </p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;时间是让人猝不及防的东西&lt;br&gt;晴时有风阴有时雨&lt;br&gt;争不过朝夕又念着往昔&lt;br&gt;偷走了青丝却留住一个你  &lt;/p&gt;
+&lt;p&gt;曾经以为很遥远的 2020&lt;br&gt;只剩下最后的一个月了&lt;br&gt;虽然大抵都是风雨多过阳光&lt;br&gt;这一年我们经历了很多&lt;br&gt;除了我们共同经历了疫情之后
+      
+    
+    </summary>
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>QQ 安全中心动态密钥</title>
+    <link href="https://01.946771200.xyz/2020/tsct.html"/>
+    <id>https://01.946771200.xyz/2020/tsct.html</id>
+    <published>2020-08-30T12:11:07.000Z</published>
+    <updated>2020-08-30T12:11:07.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>不得不说，有现成的技术方案不用，非要跑去魔改一个，这真是国内众多大厂的特征之一，QQ 安全中心的动态密钥就是如此。</p><p>现有的 One Time Password 方案大多分为 HOTP 和 OTOP，前者基于事件，后者基于时间。<br>在两步验证的安全策略中，大多数都是采用基于时间的 OTOP 算法。OTOP 算法一般来说都是通用的，因为都是遵循 <a href="https://tools.ietf.org/html/rfc6238" target="_blank" rel="noopener external nofollow noreferrer">RFC6238</a> 来实现的。<br>而 QQ 安全中心的算法是魔改 <a href="https://tools.ietf.org/html/rfc6238" target="_blank" rel="noopener external nofollow noreferrer">RFC6238</a>  实现的，导致除了它自己的客户端，其他的 OTOP 客户端都没办法用。</p><p>这里就不得不吐槽了，QQ 安全中心已经被砍成残废了，但是不知道为什么，还是有部分服务是依赖它的。<br>比如，某龙的微信全面抛弃了这种带有 QQ 字眼的安全中心，但是他的邮箱还严重依赖 QQ 安全中心。</p><p>平时基本上不怎么用，万年都不开一次，有时候还会风控你，过于依赖手机，只能想办法迁移到其他平台，比如 Bitwarden。<br>可惜这种丧心病狂的魔改版，没有什么其他软件会兼容，当然腾讯手机管家这种要吞掉 QQ 安全中心的除外。</p><p>不过幸运的是找 Github 上找到了 <a href="https://github.com/HyperSine" target="_blank" rel="noopener external nofollow noreferrer">HyperSine</a> 的 <a href="https://github.com/HyperSine/forensic-qqtoken" target="_blank" rel="noopener external nofollow noreferrer">forensic-qqtoken</a> ，里面描述了算法的思路、公式及其解密方法。</p><p>能解密就好说了，谁骚操作不是一大堆。</p><p>很麻利的从手机把相关文件拖到电脑上了，然后跑 Python 脚本。<br>嗯？怎么第一步就报错了，啥情况？哦，是 WSL 里的 Python 没 cryptography，给它装上。继续跟着教程傻瓜式的走哇，等会等会，WSL 没装 sqlite3…看着 <code>zsh: command not found: sqlite3</code> 不知道是该感叹自己手太快了还是脑袋太飘了。</p><p>提取出密钥，验证一下生成的验证码是不是和 QQ 安全中心一致，好像完事了？</p><p>嗯？我是谁？我在哪儿？我不可能每次用都给它跑一遍吧？这在手机上的话，难不成还先 SSH 到服务器上跑个验证码下来再填？</p><p>不行不行，这个轮子它又方又…太方了，得想个办法整成六边形的。</p><p>要不，咱写个 API 然后起个服务器跑？好像有点浪费哈，先不说这东西平时根本用不上，API 服务做的方便就不安全，做的安全又不方便，很难两全其美，这个不行不行，这最多就是五边形。</p><p>或许可以通过 Telegram Bot 来交互？这样似乎可行？但是单独起个服务还是不太爽的样子，这勉勉强强算是六边形了。</p><p>不想这种东西占用自己的服务器资源的话，该怎么做呢？陷入沉思…</p><p>要不，用 GitHub Action 定时把一段时间的验证码全部跑出来，然后把功能集成到自己的 Bot 里，让它直接去读 GitHub 仓库的内容？怎么好像越来越复杂了…这肯定是个三角形！</p><p>Vercel 不是有免费的 Serverless 可以用吗？</p><p>利用 Telegram Webhook 的机制，有消息传入的时候 Telegram 调起 Serverless，生成验证码后发送给用户。</p><p>这个思路好像不错，要不，实现一个？这应该算是个椭圆形了吧，推它一把它能自己滚一圈儿，符合椭圆形的标准。</p><p>出于对 Python 的「喜爱」，我决定使用 Go 来写。<br>首先，根据 <a href="https://github.com/HyperSine/forensic-qqtoken/blob/master/generate-qqtoken.py#L30-L61" target="_blank" rel="noopener external nofollow noreferrer">HyperSine 写的生成函数</a> 重写了一个 Go 版本的。</p><p>在用非常规标准（用 main 函数跑测试，跑完了就把测试代码删了的人还有没有？）完成了函数的单元测试之后，开始考虑下一步该怎么做。</p><p>平时使用 OTOP 的时候，大部分服务是有容差的。</p><p>啥是容差？一看就知道你没看上面发的 RFC6238，这里不发了，自己搜去。</p><p>OTOP 默认是 30 秒一刷新，很多服务都允许你有时间误差，具体没测试过。<br>实现机制可能就是简单的计算了一下当前时间的验证码、已经失效的一个验证码，然后拿着你输入的进行对比。</p><p>因为不清楚 QQ安全中心是否有容差机制，再加上是使用 Telegram 而不是专业的密码管理器，很大概率是需要手动复制的，所以就多生成几个。<br>这样可以避免因为网络问题，验证码一再过期这种情况。</p><p>那么就根据当前时间计算出当前的验证码，然后再计算出当前验证码的前一个和后一个，在 Telegram 上以这种样式来展示 <del>593111</del>  |  <code>243735</code>  |  <code>166949</code> 刚刚好。<br>当前验证码和未来的验证码可能是需要复制的，所以使用等宽，这样在 Telegram 上点击即可复制。<br>已经失效的验证码使用删除线显示，毕竟只是需要看看，没有其他的特殊需求了。</p><p>接下来需要测试一下 Webhook，毕竟之前没有做过这种用 Serverless 来实现 Telegram Bot 的骚操作，稳一点比较好。</p><p>先使用默认的轮询获取了几次 Telegram 发给自己的数据。然后将代码调整为 Webhook 模式，监听本地 <code>127.0.0.1</code>，用 Postman 给程序发送之前 Telegram 给我发过的消息。</p><p>嗯，测试完成。</p><p>这里有个题外话，Telegram 设置 Webhook 的 URL 应当是不被暴露的，因为 Telegram 给你发送的消息是没有鉴权机制的。<br>如果有人知道了这个服务的 Webhook URL，然后拿到了账户的 Telegram ID，就可以通过不断的给 Webhook URL 发送消息完成来骚扰。</p><p>这个问题有没有办法解决呢，办法是有的，检查来源 IP 是不是 Telegram 的就好了。</p><p>来自 <code>149.154.160.0/20</code> 和 <code>91.108.4.0/22</code> 的 <code>POST</code> 请求就是 Telegram 的服务器，当然还有一些不怎么需要提及的要求，比如必须能处理 TLS1.2+ 的 HTTPS 流量，还需要服务器提供经过验证的非通配符证书，或者是自签名证书。<br>貌似 Vercel 默认给你提供的就是通配符证书，不过我绑定了域名，不受这个影响。</p><p>又想到了一个安全问题，任何账户给这个机器人发消息都能获取到验证码可不行呢，但是我 Telegram 账户有点多，这个问题怎么整？</p><p>将自己的 Telegram ID 存为数组，收到消息时，拿到 Telegram ID 后查一遍数组，看看是否存在？然后再发送验证码？</p><p>这种办法只能自己一个人用啊，如果服务共享给其他人呢？<br>用 <code>map[int64]*Data</code> 来实现，Telegram ID 是 <code>int64</code> 的，将 Secret 等数据丢入 <code>Data</code> 结构。</p><figure class="highlight go"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">type</span> Data <span class="keyword">struct</span> &#123;</span><br><span class="line">Secret <span class="keyword">string</span></span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">m := <span class="built_in">make</span>(<span class="keyword">map</span>[<span class="keyword">int64</span>]*Data)</span><br><span class="line"></span><br><span class="line">m[<span class="number">123456789</span>] = &amp;Data&#123;&#125;</span><br><span class="line"></span><br><span class="line">myData := &amp;Data&#123;</span><br><span class="line">Secret: <span class="string">"qwertyuiop"</span>,</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">m[<span class="number">10001</span>] = myData</span><br><span class="line">m[<span class="number">10002</span>] = myData</span><br><span class="line">m[<span class="number">10003</span>] = myData</span><br><span class="line"></span><br><span class="line">m[<span class="number">40001</span>] = &amp;Data&#123;</span><br><span class="line">Secret: <span class="string">"asdfghjkl"</span>,</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><p>一对一和多对一就完成了，至于多对多那就算了吧。<br>多对多的实现想要人性化一点，就得折腾 Telegram 那个什么鬼键盘，然后根据键盘里面的回调数据来让程序生成验证码。多对多的那个多有点多的时候，还得考虑键盘的布局翻页。<br>这么复杂，谁这么玩，打死他！</p><p>不过如果有人愿意自己挖坑自己埋，弄出来之后还比较好用的话，请告诉我！</p><hr><p>代码整理了一下，放在 <a href="https://github.com/Aoang/TSCT" target="_blank" rel="noopener external nofollow noreferrer">GitHub</a> 上了，有需要的可以自己拿去改改，也可以直接弄去部署。<br>但是因为安全问题，记得认真看说明，不然小心裤子没了。</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;不得不说，有现成的技术方案不用，非要跑去魔改一个，这真是国内众多大厂的特征之一，QQ 安全中心的动态密钥就是如此。&lt;/p&gt;
+&lt;p&gt;现有的 One Time Password 方案大多分为 HOTP 和 OTOP，前者基于事件，后者基于时间。&lt;br&gt;在两步验证的安全策略中，大
+      
+    
+    </summary>
+    
+    
+    
+      <category term="QQ安全中心" scheme="https://01.946771200.xyz/tags/QQ%E5%AE%89%E5%85%A8%E4%B8%AD%E5%BF%83/"/>
+    
+      <category term="Telegram" scheme="https://01.946771200.xyz/tags/Telegram/"/>
+    
+      <category term="Serverless" scheme="https://01.946771200.xyz/tags/Serverless/"/>
+    
+      <category term="Vercel" scheme="https://01.946771200.xyz/tags/Vercel/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>搜索引擎的使用</title>
+    <link href="https://01.946771200.xyz/2020/search-engine-usage.html"/>
+    <id>https://01.946771200.xyz/2020/search-engine-usage.html</id>
+    <published>2020-06-28T01:10:28.000Z</published>
+    <updated>2020-06-28T01:10:28.000Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="Baka-才会把机器当成人"><a href="#Baka-才会把机器当成人" class="headerlink" title="Baka 才会把机器当成人"></a>Baka 才会把机器当成人</h2><p>首先，我们得明白一个道理，搜索引擎是一个软件、工具、程序，它不是人，也不是人工智能。<br>你以提问的形式问搜索引擎，你大概率是得不到你想要的内容的。</p><p>当然，你可能被百度惯坏了: <code>肚子疼怎么办？</code></p><p>百度非常贴心的给出了结果，这个结果来源于百度知道。<br>百度知道是人提问的，也是人回答的，不是搜索引擎知道肚子疼该怎么解决。<br>搜索引擎没有肚子，就算有，它的答案可能是 <code>换一个肚子就好了</code> 、<code>重启啊</code>。</p><h3 id="与或非、全匹配和通配"><a href="#与或非、全匹配和通配" class="headerlink" title="与或非、全匹配和通配"></a>与或非、全匹配和通配</h3><p>一般人想找一个温泉，但是又希望附近有酒店，他在使用搜索引擎的时候，可能会这么搜索: <code>温泉 酒店</code></p><blockquote><p>这里直接忽略某些 <code>什么酒店附近有温泉啊？</code> 这么提问的人</p></blockquote><p>但是搜索出来的几乎都是温泉酒店，而不是想要的答案，这是为什么呢？</p><p>我们先来了解一下搜索引擎的一些基本用法。</p><h5 id="与"><a href="#与" class="headerlink" title="与"></a>与</h5><p>如果你不知道 <code>与或非</code> 是什么，可以这么搜索 <code>逻辑运算符 与或非</code>。</p><p>与的符号是空格或者加号: <code></code>、<code>+</code></p><p>你可以很直观的去搜索引擎中感受一下区别: <code>温泉酒店</code> 、<code>温泉 酒店</code></p><h5 id="或"><a href="#或" class="headerlink" title="或"></a>或</h5><p>或的符号是英文字母 or 或者管道操作符: <code>OR</code>、<code>|</code></p><p><code>温泉 OR 酒店</code> 会得到与温泉、酒店或者和两者都有关的结果</p><h5 id="非"><a href="#非" class="headerlink" title="非"></a>非</h5><p>非的符号是减号: <code>-</code></p><p><code>温泉 -酒店</code> 的结果会返回与温泉相关的内容，但是会过滤掉和酒店相关的内容。</p><h5 id="全匹配"><a href="#全匹配" class="headerlink" title="全匹配"></a>全匹配</h5><p>全匹配的符号是双引号: <code>&quot;&quot;</code></p><p>全匹配还需要多提一句，这个全匹配是包括关键词顺序的。</p><p><code>&quot;温泉 酒店&quot;</code> 得到的结果可能和上面的差不多，搜索一下其他的内容可能会让这个功能的效果更好。</p><h5 id="通配"><a href="#通配" class="headerlink" title="通配"></a>通配</h5><p>通配符就是星号: <code>*</code></p><p><code>*泉 酒店</code> 得到的结果可能就是某个名称、地名带有泉字的酒店。<br>通配符可以代表任何文字，当不确定某些内容，或者需要搜索相关内容，就可以用该指令。</p><h3 id="其他指令"><a href="#其他指令" class="headerlink" title="其他指令"></a>其他指令</h3><p>有时候我们需要查询某个网站上的内容，但是搜索引擎给了一大堆其他网站的内容，这时候就会用到一下其他的指令了。</p><h5 id="指定网站"><a href="#指定网站" class="headerlink" title="指定网站"></a>指定网站</h5><p>用法: <code>site:youtube.com music</code><br>用来搜索某个域名下的所有内容，也可以用于子域名。</p><p>如果你想看知乎关于「如何减肥」的回答，就可以用 <code>site:zhihu.com 如何减肥</code>。</p><h5 id="文件限定"><a href="#文件限定" class="headerlink" title="文件限定"></a>文件限定</h5><p>用法: <code>filetype:pdf 逻辑学导论</code></p><p>它会返回特定的文件格式，具体支持什么格式可以自己试试。</p><h5 id="范围限定"><a href="#范围限定" class="headerlink" title="范围限定"></a>范围限定</h5><p>用法: <code>presidents 1991..1995</code></p><p>它会返回某个数值范围的结果，该数值可以是时间、价格、年份、距离等。<br>例如 <code>presidents 1991..1995</code> 返回 1991~1995 的总统。</p><h5 id="定义"><a href="#定义" class="headerlink" title="定义"></a>定义</h5><p>用法: <code>define capture</code></p><p>它会返回所查询单词的涵义，解释很全面，包括了其词源、翻译、使用频率等，不支持中文。</p><h5 id="限定标题"><a href="#限定标题" class="headerlink" title="限定标题"></a>限定标题</h5><p>用法: <code>intitle:中国文学</code></p><p>这里的限定标题是限定的网页 HTML 中的 title 标签内的内容，一般在做 SEO 的时候才会用到。</p><h5 id="限定多标题"><a href="#限定多标题" class="headerlink" title="限定多标题"></a>限定多标题</h5><p>用法: <code>allintitle:中国文学 名著</code></p><p>它会返回 title 中既包含中国文学又包含名著的内容。</p><h5 id="限定URL"><a href="#限定URL" class="headerlink" title="限定URL"></a>限定URL</h5><p>用法: <code>inurl:gov</code></p><p>一般用于查找某种类型的网站，如政府网站，就可以用 <code>inurl:gov</code>，它会找到 url 中包含 gov 的页面。</p><h5 id="限定多-URL"><a href="#限定多-URL" class="headerlink" title="限定多 URL"></a>限定多 URL</h5><p>用法: <code>allinurl:gov cn</code></p><p>与限定多标题类似的用法和作用。</p><h5 id="后记"><a href="#后记" class="headerlink" title="后记"></a>后记</h5><p>这些内容都需要多练习，例如，想要找一篇关于页岩气引发地震的论文。<br>论文多半都是 pdf 格式的，而关键词可以设置为: 页岩气地震 预测 识别 控制</p><p>那么在搜索引擎里面应该这么写：<br><code>filetype:pdf 页岩气地震 预测 识别 控制</code></p><p>当然，最好的话在 <a href="http://www.agoogleaday.com/" target="_blank" rel="noopener external nofollow noreferrer">A Google a Day</a> 上练习下。</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h2 id=&quot;Baka-才会把机器当成人&quot;&gt;&lt;a href=&quot;#Baka-才会把机器当成人&quot; class=&quot;headerlink&quot; title=&quot;Baka 才会把机器当成人&quot;&gt;&lt;/a&gt;Baka 才会把机器当成人&lt;/h2&gt;&lt;p&gt;首先，我们得明白一个道理，搜索引擎是一个软件、工具、
+      
+    
+    </summary>
+    
+    
+    
+      <category term="搜索引擎" scheme="https://01.946771200.xyz/tags/%E6%90%9C%E7%B4%A2%E5%BC%95%E6%93%8E/"/>
+    
+      <category term="Google" scheme="https://01.946771200.xyz/tags/Google/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Bitwarden 服务指南</title>
+    <link href="https://01.946771200.xyz/2019/bitwarden.html"/>
+    <id>https://01.946771200.xyz/2019/bitwarden.html</id>
+    <published>2019-12-14T09:44:51.000Z</published>
+    <updated>2019-12-14T09:44:51.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>前两天，在 V2ex 看到 V 友发帖<a href="https://www.v2ex.com/t/628151" target="_blank" rel="noopener external nofollow noreferrer">询问 Bitwarden 高级版购买的问题</a>。</p><p>和楼主一样，之前都是使用的 KeePass，看帖子里对 Bitwarden 的介绍，就去官网看了看，发现这配套服务除了好看也比较齐全，毕竟开源软件多数都是不会愁生态的，就是多数有点难看。</p><p>去<a href="https://bitwarden.com/" target="_blank" rel="noopener external nofollow noreferrer">官网</a>注册了一个账号，发现的确比 KeePass 好看的多。密码管理器中，我一直没有依赖 KeePass 自带的 TOTP，因为便捷性、外观再加上太折腾了，综合考虑下来，Android 上一直使用的是付费的 Authenticator Plus，Windows 下用 WinAuth 和 KeePassXC，Linux 的选择很多，不多叙述。<br>KeePass 其实功能很强大了，但折腾是真的。不折腾的软件其实也有，但不支持自建的自然不在考虑范围之内。</p><p>Bitwarden 和 KeePass一样，它也支持备注、附件和自定义键值对。</p><p>不同的是，附件有大小限制，不过一般很难用到这个；自定义键值对的存在是很有必要的，如果没有这个，那多半就不会有后面的内容了，因为不会去折腾了；但是它没有历史记录这个东西了，虽然很可惜，但是不大用得上，而且后面做了其他方面的弥补机制。</p><p>感觉上怎么不如 KeePass？其实未必，对于密码管理器而言，KeePass 可能太专业了，只专注这一块，而其他方面就比较薄弱了。</p><p>Bitwarden 默认只有四种类型的内容，除了密码管理，还有卡片、身份、笔记。<br>其实从字段来看，它只有密码管理一种，而其他三种，卡片里面是用来储存银行卡信息的，这其实就是键值对，只不过事先定义好了；身份也和字面意思一样，是用来储存身份信息的，同样的，都是键值对；笔记其实就是每种类型都有的备注。</p><p><img src="/img/1.png" alt=""></p><p><img src="/img/2.png" alt=""></p><p>Bitwarden 默认是有文件夹的，但是这个文件夹和 KeePass 不同，KeePass 允许有根、子存在，并且继承权限，它都是平级的。<br>还有一个密码管理器都有的功能，密码生成器，这也不需要多叙述。</p><p><img src="/img/4.png" alt=""></p><p>和 KeePass 对比起来功能少了很多，同样的也简单了很多，但是更重要的是，好看了很多。<br>一直在说功能上的对比，其实还忽略了一点，Bitwarden 是部署在服务器上的，同步无痒，它的客户端也都是开源的，生态自然是没什么问题的。<br>就是有一点要吐槽，Windows 客户端是个套壳游览器，界面功能还没有网页全。</p><p>Bitwarden 的网页功能的确多得多，除了密码库的管理，还能导入导出数据，多数密码管理器的数据都能直接导入。</p><p><img src="/img/3.png" alt=""></p><p><img src="/img/5.png" alt=""></p><p><img src="/img/6.png" alt=""></p><p>网页上还做了一个功能，根据互联网公开的报告来检查账号、密码有没有被泄露，以及检查你在支持两步验证的网站是否打开了两步验证。对于账号、密码多的人来说，这就不用自己每次写个脚本去跑了。</p><p>如果你自建了，你会发现一个新的功能——组织。组织的功能和个人账号的功能是差不多的，但是组织可以很方便的共享，同时共享功能也有相应的权限机制。</p><p>介绍了这么多，不如讲一下部署过程？</p><p>部署的机器是一台闲置的 1C1G1M 小机器，远在美西。</p><p>根据 Wiki 上的描述，Docker 部署还是很舒服的，一会儿就跑起来了。<br>自己在网页端、手机端试了试，觉得有些惊艳，毕竟比 KeePass 好看太多了。</p><p>早在部署之前，就考虑到一个问题，使用网页端管理密码比较频繁，毕竟套壳游览器用不惯，所以网页端的功能不能关，对于这种敏感数据还是套个 CDN 比较好。</p><p>一边在服务器上装 Docker，一边就在解析域名，使用 Cloudflare 来保护服务器。Bitwarden 部署好之后，再装一个 Nginx，写写配置文件，屏蔽所有非 Cloudflare IP 段的请求，最后打开端口，使用游览器访问。这些教程网上都很容易找到，就不多叙述了。</p><p>Bitwarden 部署的时候，使用的是 SQLite，没有用其他数据库，足够轻量，也方便迁移。但是问题也就出来了，如果服务器因为不可抗拒的因素丢失数据呢？备份和同步数据库的问题必须得到解决。</p><p>如果使用的是 MySQL，那直接 MySQL 主从热备、读写分离什么的，也都好弄了，但为了轻量，还是算了吧。查了查其他人的备份方式，最常见的就是备份 SQLite 文件，加密备份到 Dropbox。但是我不怎么用 Dropbox，所以放弃了这个方案。</p><p>到最后使用的方案是，Crontab 定时用 Git 备份到 GitHub 开 Webhooks 通知其他机器备份，相当于算是弥补了版本控制吧。同时本地电脑也可以定期 pull 下来，这样可以避免某一天，这个世界没有互联网了。</p><p>至此，本篇文章已经结束了。</p><p>还有一部分不得不说一下，注重轻量的问题的时候，在 Windows 和 Linux 下都尝试部署过 Bitwarden。但是一个主用 Golang 的人突然用 Rust 编译程序，那速度和依赖…本身 Windows 的依赖就难处理，最终放弃了在 Windows 下部署，当然了并不是因为难，其实是懒得装 VS。<br>Arch 有包，事先有装过依赖的话，直接就能跑完，Debian 上装好依赖，编译一下也还行。WSL 也能编译成功。</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;前两天，在 V2ex 看到 V 友发帖&lt;a href=&quot;https://www.v2ex.com/t/628151&quot; target=&quot;_blank&quot; rel=&quot;noopener external nofollow noreferrer&quot;&gt;询问 Bitwarden 高级版购买
+      
+    
+    </summary>
+    
+    
+    
+      <category term="Bitwarden" scheme="https://01.946771200.xyz/tags/Bitwarden/"/>
+    
+      <category term="KeePass" scheme="https://01.946771200.xyz/tags/KeePass/"/>
+    
+      <category term="密码管理" scheme="https://01.946771200.xyz/tags/%E5%AF%86%E7%A0%81%E7%AE%A1%E7%90%86/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>关于个人博客</title>
+    <link href="https://01.946771200.xyz/2017/about-personal-blog.html"/>
+    <id>https://01.946771200.xyz/2017/about-personal-blog.html</id>
+    <published>2017-05-20T23:00:42.000Z</published>
+    <updated>2021-06-11T08:02:37.187Z</updated>
+    
+    <content type="html"><![CDATA[<p>如果要说博客，那么就得提起一个可能是中国第一个建立博客的人——方兴东。他创办的博客中国现在都还有这么一篇文章——博客中国的由来：感谢微软。<br>文章大致讲述的是，2002 年 7 月 6 日，方兴东写了两篇关于微软的文章，并将文章发给了几家网站上。<br>一两个小时后，文章陆续的出现在了各个网站的推荐栏目上。但是，又过了一两个小时，这些文章却陆续的消失了。这些文章被微软的公关处理掉了。<br>方兴东之前一直有开办个人网站的念头，由于这件事直接付诸行动了，所以才有了可能是中国第一个建立的博客——博客中国。</p><p>博客中国建立之后，我忘了是什么时间了，那时候支持在博客中国上申请建立自己的博客，就像现在申请网易博客一样。<br>但是，这并不是个人博客，只要不是个人博客，就必定会出现各种各样的问题，并不是别人的博客不好，而是自己的要求太多。</p><p>那时候的博客中国还是有着不错的地方的，比如对于那个年代的互联网来说，博客程序非常好；对搜索引擎的支持非常好；文章的目录结构也非常不错，关于目录结构这个问题，和搜索引擎有关，这里就不多叙述了；有远程管理的功能。<br>但是它也暴露出了各种各样的问题，比如，远程管理功能虽然有，但是使用的时候总是会出问题；没有评论过滤功能，想象一下每天自己一进入博客一大堆的广告，不过那时候的广告不像现在动不动就是变大变粗、挽救婚姻之类的；功能太少了，管理界面使用起来非常繁琐，不方便；速度慢、性能差，经常会无法访问。</p><p>虽然不是那么的令人满意，但是博客中国的使用量还是比较大的，不过在 2005 年，几月忘了，博客中国进行了一次升级，那次升级对于用户来说真的是灭顶之灾。<br>是什么样的升级才能称为灭顶之灾呢？升级过后，更改了目录结构，导致原先被收录的页面变成博客中国的页面了；博客就把邮箱地址放在博客首页上，且无法修改，生怕你的垃圾邮件不够多；更新后的一段时间内，博客系统一大堆问题；发文章需要过滤审核了。<br>就是这样，诸多博客作者已经不相信别人的博客系统了，很大一部分人都开始建立起了自己的个人博客。</p><p>但是，较之国外比较起来，中国的独立博客始终没有国外的多。其实这本身也是有一定原因的，博客这个概念本身就是从国外引进的，且没有一个知名的一条龙服务。深入问题去研究的话，还有许多其他的问题，国外个人空间、域名出售，个人站点交流论坛，开发者论坛，都有不小的人气。另一方面，国内的网络管制，以及在备案流程上较为繁琐的步骤，造成了中国个人博客比例远低于国外的状况。<br>在博客站点呈现良好的上升状态的时候，QQ 空间的出现了，越来越多的人去使用 QQ 空间了。相对于进入博客还需要输入网址，QQ 空间就只是点一下好友的资料就能进入了。</p><p>不知大家听过 Twitter 没有，它是 2006 年建立的，它是一个微博客服务，它的出现进一步打击到了个人博客的发展。<br>2009 年，Twitter 被封锁了，随后国内版 Twitter 出现了——微博。<br>个人博客一直都被各种打击，但是这些都没什么，可是个人博客还没笑出声，一个致命打击到了，移动互联网的兴起，将还没有发展起来的博客扼杀掉了。</p><p>脱帽，鞠躬，向个人博客致敬。我们现今能在搜索引擎上获取到的资源，很多都是个人博客上存有的。但是现在的人为什么不建立自己的个人博客呢？因为需要持续投入资金和技术支持。<br>现在还建立个人博客的，几乎都是 IT 方面的技术人员，不过爱好者也存在，并且比例直线上升。<br>其实现在就有非常多的的免费博客，比如网易新浪，但是没多少人愿意去用。也有很多人尝试过，不过最后换成了个人博客。<br>博客存在的意义并不是好看，而是自己能坚持写，个人博客和聚合博客区别虽然大，但是你不想写，无论什么博客都没办法。</p><p>最近在 V2ex 上看到了一个利用 Github Pages 建立的博客，这个和以往的并不同，它有后台可以登录，可以在线写。<br>我最初尝试过 WordPress、Typecho、Emlog、Z-Blog、Ghost，然后我发现了一个问题，我不断的在重复一个流程，安装、配置、自定义、折腾、放弃，然后换一个系统开始新的流程。<br>之后又尝试在 Issues 上撰写博客，然后获取 Issues 的内容呈现出来。最后，做出一个半成品后放弃了，用网页呈现为啥不直接去看 Issues。最后，换成了 Jekyll，虽然建立了很久，但是文章一直都没迁移过去。</p><p>如果想写个人博客，倒是可以尝试一下那个。部署好之后，就没什么难度了。</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;如果要说博客，那么就得提起一个可能是中国第一个建立博客的人——方兴东。他创办的博客中国现在都还有这么一篇文章——博客中国的由来：感谢微软。&lt;br&gt;文章大致讲述的是，2002 年 7 月 6 日，方兴东写了两篇关于微软的文章，并将文章发给了几家网站上。&lt;br&gt;一两个小时后，文
+      
+    
+    </summary>
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>简述 HTTP</title>
+    <link href="https://01.946771200.xyz/2017/http.html"/>
+    <id>https://01.946771200.xyz/2017/http.html</id>
+    <published>2017-04-04T21:05:01.000Z</published>
+    <updated>2021-06-11T08:02:37.187Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="什么是-HTTP？"><a href="#什么是-HTTP？" class="headerlink" title="什么是 HTTP？"></a>什么是 HTTP？</h2><p>首先，HTTP 是什么？ HTTP 是基于 <code>TCP/IP</code> 的应用层通信协议，用于标准化客户端和服务器之间的通信方式。 它定义了如何通过互联网请求和传输内容。 应用层协议，我的意思是它只是一个抽象层，它规范了主机（客户端和服务器）如何通信，并且它本身依赖于 <code>TCP/IP</code> 来获取客户端和服务器之间的请求和响应。 默认情况下使用 TCP 端口<code>80</code>，HTTPS 使用 <code>443</code>。</p><h2 id="HTTP-0-9-1991"><a href="#HTTP-0-9-1991" class="headerlink" title="HTTP/0.9 - 1991"></a>HTTP/0.9 - 1991</h2><p>第一个 HTTP 版本是 <code>HTTP/0.9</code> 在1991年提出的。它是有史以来最简单的协议; 只有一个叫做 <code>GET</code> 的方法 。如果客户不得不访问服务器上的某个网页，它会发出如下的简单请求</p><p><code>GET /index.html</code></p><p>服务器的响应看起来如下所示</p><p><code>(response body)</code><br><code>(connection closed)</code></p><p>也就是说，服务器会收到请求，并回复 <code>HTML</code>，一旦内容被传输，连接将被关闭。它有着以下限制</p><ul><li>没有头信息（HTTP header）</li><li>只有 <code>GET</code> 方法 </li><li>只能返回 <code>HTML</code></li></ul><p>正如你所看到的，该协议实际上只不过是未来的垫脚石。</p><h2 id="HTTP-1-0-1996"><a href="#HTTP-1-0-1996" class="headerlink" title="HTTP/1.0 - 1996"></a>HTTP/1.0 - 1996</h2><p>在 1996 年，下一版本的 HTTP 即 <code>HTTP/1.0</code> 得到了极大改进，超过了原始版本。</p><p>与 <code>HTTP/0.9</code> 仅针对 HTML 响应设计的不同，<code>HTTP/1.0</code> 现在可以处理其他响应格式，即图像，视频文件，纯文本或任何其他内容类型。它添加了更多的方法（即 POST 和 HEAD），请求/响应格式发生了变化，HTTP 头添加到请求和响应中，添加了状态码以识别响应，引入了字符集支持，多部分类型，授权，缓存，内容编码等内容。</p><p>以下是示例 <code>HTTP/1.0</code> 请求和响应的样子：</p><p><code>GET / HTTP/1.0</code><br><code>Host: aoang.github.io</code><br><code>User-Agent: Mozilla/5.0 (X11; Linux x86_64)</code><br><code>Accept: */*</code></p><p>正如你所看到的，除了请求之外，客户端还发送了它的个人信息，所需的响应类型等。在 <code>HTTP/0.9</code> 客户端中永远不会发送这样的信息。</p><p>以上对请求的响应示例可能如下所示</p><p><code>HTTP/1.0 200 OK</code><br><code>Content-Type: text/plain</code><br><code>Content-Length: 123456</code><br><code>Expires: Thu, 10 Dec 1999 00:00:00 GMT</code><br><code>Last-Modified: Thu, 10 Dec 1998 00:00:00 GMT</code><br><code>Server: Apache</code>  </p><p><code>(response body)</code><br><code>(connection closed)</code></p><p>在响应的一开始就有 <code>HTTP/1.0</code> （HTTP 后跟版本号），然后是 200 状态码。</p><p>在这个更新的版本中，请求和响应标头仍然保持 <code>ASCII</code> 编码状态，但响应主体可以是任何类型的图片，视频，HTML，纯文本或任何其他内容类型。所以，现在服务器可以发送任何内容类型给客户端; 在引入之后不久，<code>HTTP</code> 中的“超文本”一词就名不副实了。HMTP 或者超媒体传输协议可能会更有意义，但是我想，这估计难以改变了。</p><p><code>HTTP/1.0</code> 其中有一个主要缺点，无法为每个连接提供多个请求。也就是说，无论何时客户端需要从服务器获取一些东西，它将不得不打开一个新的 TCP 连接，并且在这之后单个请求已经完成，连接被关闭。对于任何下一个要求，它必须在一个新的连接上。如果你还不明白？那么，让我们假设你访问了一个包含十张图片，五个 CSS 和五个 JavaScript 文件的网页，这些文件是当对该网页的请求发生时需要获取的。由于服务器在请求完成后立即关闭连接，因此会有一系列的单独的连接去获取这些文件，每个文件将在其单独的连接上逐一提供。这种大量的 TCP 连接会导致严重的性能下降，因为新连接会由于三次握手和慢启动而导致显着的性能损失。</p><p><strong>三方握手</strong></p><p>简单来说，三次握手的形式是，所有 <code>TCP</code> 连接都以三次握手开始，客户端和服务器在开始传输数据之前发送一系列数据包。</p><ul><li><code>SYN</code> - 客户端发送 <code>SYN</code> 包 (SYN = x) 到服务器，并进入 <code>SYN_SEND</code> 状态，等待服务器确认</li><li><code>SYN ACK</code> - 服务器收到 <code>SYN</code> 包，必须确认客户的 <code>SYN</code> （ACK = x + 1），同时自己也发送一个 <code>SYN</code> 包 (SYN = y)，即 <code>SYN</code> 和 <code>ACK</code> 包，此时服务器进入 <code>SYN_RECV</code> 状态；</li><li><code>ACK</code> - 客户端收到服务器的 <code>SYN</code> 和 <code>ACK</code> 包，向服务器发送确认包 <code>ACK</code> (ACK = y + 1)，此包发送完毕，客户端和服务器进入 <code>ESTABLISHED</code> 状态，完成三次握手。</li></ul><p>一旦三次握手完成，客户端和服务器之间的数据传输就可以开始了。应该注意的是，客户端可能会在发送最后一个 <code>ACK</code> 数据包后立即开始发送数据，但服务器必须接受到此 <code>ACK</code> 数据包才能进行请求。</p><p><img src="/img/http2/http-http2-1.svg" alt=""></p><p>然而，一些 HTTP/1.0 的实现试图通过引入一个新的头信息 <code>Connection: keep-alive</code> 来解决这个问题。这个头信息是为了告诉服务器保持连接状态。但并没有得到广泛支持，问题依然存在。</p><p><code>HTTP</code> 除了是无连接的协议外，也是一种无状态协议，即服务器不维护有关客户端的信息。例如：服务器不维护关于客户端的信息，因此，在与任何旧的请求没有任何关联的情况下，服务器为了能完成请求，需要每一个请求都带有服务器所需的信息。所以，客户端除了要进行大量的连接，还必须发送一些冗余的数据，导致了需要使用更多的带宽。</p><h2 id="HTTP-1-1-1999"><a href="#HTTP-1-1-1999" class="headerlink" title="HTTP/1.1 - 1999"></a>HTTP/1.1 - 1999</h2><p>仅 3 年，下一版本 <code>HTTP/1.1</code> 在 1999 年发布，这个版本对之前做了很多改进。主要包括</p><ul><li><p><strong>新的 HTTP 方法</strong> <code>PUT</code>, <code>PATCH</code>, <code>OPTIONS</code>, <code>DELETE</code></p></li><li><p><strong>主机名标识</strong> 在 <code>HTTP/1.0</code> 中 <code>Host</code> 不是必须的，但是在 <code>HTTP/1.1</code> 中它是必需的。</p></li><li><p><strong>持久连接</strong> 如上所述，<code>HTTP/1.0</code> 每个连接只有一个请求，且一旦请求完成就会关闭连接，从而导致性能、延迟问题。 <code>HTTP/1.1</code> 引入了持久连接，即 <strong>默认情况下连接不会自动关闭</strong>，并保持打开状态，允许多个连续请求。要关闭连接，将 <code>Connection: close</code> 加入到请求的头信息中。客户端通常在最后一个请求中发送该头以安全关闭连接。</p></li><li><p><strong>管线化</strong> 它还引入了对管线化的支持，客户端可以向服务器发送多个请求，而无需等待来自同一连接上的服务器的响应。</p></li></ul><blockquote><p>应该注意使用持久连接或管线化时，<code>Content-Length</code> 头部必须在可用响应中，因为这会让客户端知道传输何时完成，并且它可以发送下一个请求（以正常的顺序方式发送请求）或者开始等待下一个响应（启用管线化时）。</p></blockquote><blockquote><p>但这种方法仍然存在问题。如果数据是动态的，并且服务器无法找到之前的 <code>Content-Length</code> ，那该怎么办？那么在那种情况下，你就无法使用持久连接你，不是么？为了解决这个问题，<code>HTTP/1.1</code> 引入了分块传输。在这种情况下，服务器可能会忽略 <code>Content-Length</code> 以支持分块编码。如果它们都不可用，则在请求结束时关闭连接。</p></blockquote><ul><li><p><strong>分块传输</strong> 在动态内容的情况下，当服务器无法找到 <code>Content-Length</code> 的话，它可以开始发送片段内容并在发送时给每个块添加 <code>Content-Length</code>。当所有的数据块都被发送完毕，即整个传输完成后，它会发送一个空的数据块，即 <code>Content-Length</code> 设置为零的数据块，以告诉客户端传输已完成。为了通知客户关于分块传输，服务器需要包含头<code>Transfer-Encoding: chunked</code></p></li><li><p>不同于 <code>HTTP/1.0</code> 只有基本身份认证， <code>HTTP/1.1</code> 包括摘要和代理认证</p></li><li><p>高速缓存</p></li><li><p>字节范围</p></li><li><p>字符集</p></li><li><p>语言协商</p></li><li><p>客户端Cookie</p></li><li><p>增强的压缩支持</p></li><li><p>新的状态码</p></li><li><p>和更多</p></li></ul><p>如果要完整的讲述 <code>HTTP/1.1</code>，篇幅会超出想象，如果你打算深入了解，可以阅读 <a href="https://tools.ietf.org/html/rfc2616" target="_blank" rel="noopener external nofollow noreferrer">RFC 2616 - Hypertext Transfer Protocol – HTTP/1.1</a>。</p><p><code>HTTP/1.1</code> 于 1999 年推出，早已成为标准。虽然它改进了非常多，但是随着互联网的发展，它已经开始显得年老体衰了。现在加载网页比以前更费资源。一个简单的网页都可能打开 30 多个连接。<code>HTTP/1.1</code> 是持久连接，那为什么还需要这么多连接？因为在任何时刻都只有一个有效连接。 <code>HTTP/1.1</code> 试图通过引入管线化来解决这个问题，但并没有完全解决这个问题，由于阻塞问题，一旦请求被阻塞在管线化中，它将不得不等待下一个请求。为了克服这些缺点 <code>HTTP/1.1</code> ，开发人员开始实施解决方法，例如合并 CSS / Javascript文件，域名分片等。</p><h2 id="SPDY-2009"><a href="#SPDY-2009" class="headerlink" title="SPDY - 2009"></a>SPDY - 2009</h2><p>Google 开始尝试设计一种新协议来减少网页的延迟，使得网页加载更快并提升安全性，2009 年， SPDY 面世。</p><blockquote><p><code>SPDY</code> 是 Google 的商标，并不是缩写。</p></blockquote><p>他们意识到，如果继续增加带宽来提升网络性能，必定会到底一个临界点之后无法继续提升。而在有延迟的情况下，不断降低延迟，那么性能将会是一个常数。这是 SPDY 性能提升背后的核心理概念，减少延迟来提升网络性能。</p><blockquote><p>对于那些不懂概念的人， 延迟即数据从源传输到目标的耗时，带宽就是每秒传输的数据量.</p></blockquote><p><code>SPDY</code> 的特点包括，复用，压缩，优先级，安全等。</p><p><code>SPDY</code> 并没有真正尝试取代 HTTP，它是通过 HTTP 存在于应用层的转换层，并在将请求发送到线路之前修改了请求。它开始成为事实上的标准，大多数浏览器开始实施它。</p><p>2015年，Google 不希望有两个相互竞争标准，所以他们决定将它合并到 HTTP 中，同时推进 <code>HTTP/2</code> 和弃用 SPDY。</p><h2 id="HTTP-2-2015"><a href="#HTTP-2-2015" class="headerlink" title="HTTP/2 - 2015"></a>HTTP/2 - 2015</h2><p>到现在，你应该知道了为什么需要对 HTTP 协议进行改进。 <code>HTTP/2</code> 专为低延迟传输内容而设计。它和 <code>HTTP/1.1</code> 的主要功能或差异有</p><ul><li>使用二进制而不是文本</li><li>复用 - 单个连接中进行多个异步 HTTP 请求</li><li>HPACK 头部压缩</li><li>服务器推送 - 单请求多响应</li><li>请求优先级</li><li>安全</li></ul><p><img src="/img/http2/http-http2-2.svg" alt=""></p><h3 id="1-二进制协议"><a href="#1-二进制协议" class="headerlink" title="1. 二进制协议"></a>1. 二进制协议</h3><p><code>HTTP/2</code> 通过使二进制协议来减少存在于 <code>HTTP/1.x</code> 中的延迟问题。二进制协议更容易解析，但对于人来说，几乎没有可读性。<code>HTTP/2</code> 主要构件是帧和流</p><h4 id="帧和流"><a href="#帧和流" class="headerlink" title="帧和流"></a>帧和流</h4><p>HTTP 会话由一个或多个帧组成。<code>HEADERS</code> 帧用于存放元数据，数据则是存放在 <code>DATA</code> 帧中，还有其他几种类型的帧（HEADERS，DATA，RST_STREAM，SETTINGS，PRIORITY 等），您可以通过<a href="https://http2.github.io/http2-spec/#FrameTypes" target="_blank" rel="noopener external nofollow noreferrer"><code>HTTP/2</code> 规范</a>进行检查。</p><p>每个 <code>HTTP/2</code> 请求和响应都被赋予一个唯一的流 ID，并将其分为多个帧。帧只不过是二进制数据，一组帧被称为一个流。每个帧都有一个流标识，标识它所属的流，每个帧都有一个公共头。此外，除了唯一的流 ID 之外，有趣的是，客户端/服务器发起的请求或响应是奇数/偶数的流 ID。</p><p>除 <code>HEADERS</code> 和 <code>DATA</code>之外，我认为另一种值得一提的帧类型是 <code>RST_STREAM</code>，它是一种特殊的帧类型，用于中止流，即客户端可以发送此帧让服务器知道我不需要此流了。在 <code>HTTP/1.1</code> 中，使服务器停止向客户端发送响应的唯一方法是关闭连接。在 <code>HTTP/2</code> 中，客户端可以使用 <code>RST_STREAM</code> 并停止接收特定的数据流，同时连接仍然处于打开状态，其他数据流不受影响。</p><h3 id="2-多路复用"><a href="#2-多路复用" class="headerlink" title="2. 多路复用"></a>2. 多路复用</h3><p>由于 <code>HTTP/2</code> 是一个二进制协议，正如我上面所说的那样，它使用帧和流来请求和响应，一旦 TCP 连接打开，所有流将通过相同的连接进行异步发送，而不会需要额外的连接。 然后，服务器以相同的异步方式响应，即响应没有顺序，并且客户端使用分配的流 ID 来标识特定分组所属的流。这也解决了 HTTP/1.x 中存在的 <strong>头部阻塞</strong> 问题，即客户端不必花费时间等待请求，并且其他请求会得到处理。</p><h3 id="3-HPACK-头部压缩"><a href="#3-HPACK-头部压缩" class="headerlink" title="3. HPACK 头部压缩"></a>3. HPACK 头部压缩</h3><p>它是专门为头部压缩设计的一套压缩算法。其实质是，当我们不断地从同一个客户端访问服务器时，我们可能会发送很多相同的数据，有时可能会有 cookies，增加了头的大小，从而导致占用了带宽、增加了延迟。为了克服这个问题，<code>HTTP/2</code> 引入了头压缩。</p><p><img src="/img/http2/http-http2-3.png" alt=""></p><p>与请求和响应不同，头文件不是使用 <code>gzip</code> 或 <code>compress</code> 等压缩的，头压缩的机制不同，它使用 Huffman code 对文本值进行编码，并且头文件表由客户端和服务器共同维护，并且客户端和服务器都会在后续请求中省略任何重复标题（例如 user-agent），使用由两者维护的头文件表来引用。</p><p><code>HTTP/2</code> 的头文件仍和 HTTP/1.1 一样，只是添加一些伪报头字段，例如 <code>:method</code>, <code>:scheme</code></p><h3 id="4-服务器推送"><a href="#4-服务器推送" class="headerlink" title="4. 服务器推送"></a>4. 服务器推送</h3><p>服务器推送是 <code>HTTP/2</code> 的另一个重要特性，如果服务器知道客户端将要请求某个资源，可以将其推送到客户端，不需要客户端询问它。 一个网站中的网页，里面有一个名为 styles.css 的样式表定义各种样式。当用户向务器请求这个网页时，可以向用户推送 styles.css，同时发送这个网页。</p><p>服务器推送允许服务器通过推送它知道客户端需要的数据来减少往返次数。 它是如何完成的呢？服务器发送一个名为 <code>PUSH_PROMISE</code> 的特殊帧，通知客户端：“嗨，我将把这个资源发送给你！不要问我。” <code>PUSH_PROMISE</code> 帧与导致推送发生的流相关联，并且它包含承诺的流 ID，即服务器将发送要推送的资源的流。</p><h3 id="5-请求优先级"><a href="#5-请求优先级" class="headerlink" title="5. 请求优先级"></a>5. 请求优先级</h3><p>客户端可以通过将优先级信息添加到在打开流的 <code>HEADERS</code> 帧中来为流分配优先级。在任何时候，客户端都可以发送 <code>PRIORITY</code> 帧来改变流的优先级。</p><p>如果没有任何优先级信息，服务器会异步处理请求，即没有任何顺序。 如果分配给流的优先级，则基于该优先级信息，由服务器决定需要给予多少资源来处理请求。</p><h3 id="6-安全"><a href="#6-安全" class="headerlink" title="6. 安全"></a>6. 安全</h3><p>关于是否应该对 <code>HTTP/2</code> 进行强制使用安全连接（通过<code>TLS</code>）的讨论，最后，还是决定不强制执行。 但是，大多数游览器表示，将只支持基于 <code>TLS</code> 的 <code>HTTP/2</code>。所以，虽然 <code>HTTP/2</code> 不需要加密，但是游览器是大佬。而且，通过 <code>TLS</code> 实现 <code>HTTP/2</code> 强加了一些要求。例如，必须使用 <code>TLS 1.2</code> 及更高版本，必须有最低限制的最小密钥长度，需要临时密钥等。</p>]]></content>
+    
+    <summary type="html">
+    
+      简述 HTTP
+    
+    </summary>
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>OWASP Top 10 - Authentication and Password Management</title>
+    <link href="https://01.946771200.xyz/2017/owasp-2.html"/>
+    <id>https://01.946771200.xyz/2017/owasp-2.html</id>
+    <published>2017-03-17T04:40:01.000Z</published>
+    <updated>2019-09-20T08:50:00.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>很多古老的程序都存在一个普遍的问题——身份认证问题。如果有以下行为之一，就有可能存在这个问题。</p><p>1、允许弱密码（password 123456 admin）<br>2、使用明文、加密或弱哈希管理密码<br>3、允许暴力破解、自动攻击<br>4、使用非安全连接进行认证<br>5、使用 GET 请求进行认证<br>6、不正确的失效策略</p><p>关于身份认证可以先从客户端说起。<br>传统 Web 登录方式中，都会默认隐藏用户输入的密码，但是除此之外，应该默认禁用记住会话、记住密码这些功能。</p><p>用户使用的电脑并非一定是自己的、安全的，默认禁用这些功能对提升安全性的作用是很大的。</p><p>做到了这一点，应该在考虑一下后端的问题，用户的会话失效策略应该是怎么样的。在各种使用场景中，主动注销可能并不符合用户的使用习惯。</p><p>会话失效策略定义的过于严格的话，会导致用户在正常使用过程中会话失效，导致用户使用体验变差。对于这个问题，应当结合场景制定合适的会话策略。</p><p>一般情况下，必须确保用于生成会话标识符的算法足够随机，防止被爆破。</p><ul><li>cookies 的过期时间应该足够合适</li><li>会话标识符不会在 URL 中公开，它应该仅位于 HTTP cookie 中</li><li>会话数据也必须受到保护，防止服务器的其他用户未经授权的访问</li><li>如果有 HTTP 重定向到 HTTPS，那应该特别注意 MITM 攻击嗅探</li><li>如果有高度敏感的操作，那么可以考虑按照请求生成 token，保持 token 足够随机，且长度足够安全</li></ul><p>现在越来越多的网站开始使用甚至强制使用加密连接（HTTPS）了，而对于 Web 应用而言这也是必须的了。<br>如果数据传输不通过 TLS/SSL 进行，可能会因为中间人攻击导致用户会话的相关信息泄露，甚至服务器也会遭受入侵。</p><p>在发送认证请求的时候，尽管在 HTTPS 下，通过 GET 请求和 POST 是一样安全的，但是还是应该使用 PSOT 请求。<br>因为在一般的 HTTP 服务器（Nginx Apache）中，会将请求的 URL 写入日志。</p><p>在之前的文章中提到过一点，如果用户身份验证错误，程序不要返回过于详细的信息，使用“无效的用户名或密码”来代替“用户名不存在”、“密码错误”。<br>因为提示用户名不存在会泄露一个用户是否存在，而密码错误这个提示会暴露后端的工作模式，先验证用户名，然后比较密码。</p><p>如果可能的话，成功登录之后，应该告知用户最近一次成功、失败的访问记录，以便用户检查可疑活动。<br>如果对于安全性有更高的要求的话，应该采取一定的密码策略。</p><p>例如，我们应该强制用户不得使用弱密码。<br>可以要求用户的密码至少包括大写字母、小写字母、数字、特殊符号中的三种甚至四种，要求用户的密码长度为八位甚至十六位以上。<br>还可以要求用户间隔一段时间之后强制更改密码，并不得使用过去使用过的密码。</p><p>在这个方面，Microsoft 做的很强，它除了上述策略，还有黑名单策略（禁止使用网络上公布的常见的弱密码），密码不得包含用户名。<br>但是在提示用户安全这一块，Google 可能做的更好，更加人性化，因为上面很容易就能看到上次更改密码的时间、提示的风险等等。</p><p>不过在日志这一块上，GitHub 做的非常详细。<br>大家感兴趣的话，可以分别去体验一下。</p><p>除了这些密码策略，程序应该要做到防止被爆破。<br>比如，登录失败次数过多，程序应当限制账号登录一段时间，但是这个时间得控制好，不然的话会成为别人拒绝式攻击服务的手段之一，导致用户无止境的被冻结，无法正常使用。<br>还有密码应该至少存在一段时间之后才能再次更改，这样可以一定程度上的防止密码重用攻击。<br>对于用户重置密码时，发送重置链接、或者验证码的时候，这样的敏感信息应该具有较短的到期时间。</p><p>最后说下密码的储存策略，先说一句密码学中的格言，永远不要自己设计加密方案。</p><p>你可以自动设计加密方案，但是如果你不是这个领域内的专家，或者没有经过其他专家对方案进行分析，那你的方案可能会存在严重的安全性错误。<br>一个公开的加密方案，能被所有人进行审查分析，一个方案只有遭到广泛的攻击之后才是安全的。</p><p>密码学也存在很多安全性问题，对于计算机科学的安全性问题都缺乏了解，对于其他技术就更谈不上了。<br>在存储密码，Golang 已经有现成的哈希算法可以使用了 <code>bcrypt</code> <code>scrypt</code> <code>PDKDF2</code> <code>Argon2</code>，而不应该使用那些不够安全的哈希算法 <code>MD5</code> <code>SHA-1</code>。</p><p>哈希和加密是两种不同的概念，拥有不同的用途。<br>哈希是将目标文本转换成具有相同长度的、不可逆的字符串，而加密将目标文本转换成具有不同长度的、可逆的密文。</p><p>在储存密码中，除了使用哈希，还可以使用加密，区别在哪里呢。<br>如果数据仅仅用于比较、验证，不需要还原成明文，那就使用哈希，反之则使用加密。<br>一般情况下，储存密码都会使用哈希，但是一些特殊场景下，会需要还原成明文，才需要使用加密。</p><p>一般情况下，服务器被入侵数据泄露之后，如果密码是明文，那么用户的信息就直接泄露了，但是一般情况都是使用哈希算法对密码进行处理。<br>起初，对于简单的密码和简单的密码系统，可以通过字典穷举进行破解，而之后出现了彩虹表，所以对于重要的场景不要使用弱哈希算法。</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;很多古老的程序都存在一个普遍的问题——身份认证问题。如果有以下行为之一，就有可能存在这个问题。&lt;/p&gt;
+&lt;p&gt;1、允许弱密码（password 123456 admin）&lt;br&gt;2、使用明文、加密或弱哈希管理密码&lt;br&gt;3、允许暴力破解、自动攻击&lt;br&gt;4、使用非安全连接进
+      
+    
+    </summary>
+    
+    
+    
+      <category term="OWASP" scheme="https://01.946771200.xyz/tags/OWASP/"/>
+    
+      <category term="网络安全" scheme="https://01.946771200.xyz/tags/%E7%BD%91%E7%BB%9C%E5%AE%89%E5%85%A8/"/>
+    
+      <category term="Authentication" scheme="https://01.946771200.xyz/tags/Authentication/"/>
+    
+      <category term="Password" scheme="https://01.946771200.xyz/tags/Password/"/>
+    
+      <category term="Session" scheme="https://01.946771200.xyz/tags/Session/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>OWASP Top 10 - Injection</title>
+    <link href="https://01.946771200.xyz/2017/owasp-1.html"/>
+    <id>https://01.946771200.xyz/2017/owasp-1.html</id>
+    <published>2017-03-16T14:49:28.000Z</published>
+    <updated>2019-09-20T08:49:28.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>在应用程序安全性中，如果不处理用户输入及其相关数据，可能会带来安全风险。<br>而注入是使用最广泛，以及最古老和非常危险的漏洞之一，在 OWASP Top 10 从 2010 开始一直到现在都是第一，还是挺有趣的。</p><p>注入是将不受信任的数据作为命令或查询的一部分发送到解析器时，会产生诸如SQL注入、NoSQL注入、OS注入和LDAP注入的注入缺陷。<br>攻击者的恶意数据可以诱使解析器在没有适当授权的情况下执行非预期命令或访问数据。</p><p>例如，我们需要查询用户输入的用户名和密码是否对应。</p><p><code>SELECT * FROM Users WHERE username= $username AND password= $password;</code></p><p>如果未经处理用户的输入，当用户的输入中存在<code>’--</code> 或者 <code>‘ or ‘1’=’1</code>，那可能不仅仅只是代码没有进行预期的工作，还可能泄露信息。</p><p>一般情况下，我们使用验证和清理来解决这些问题。<br>这些验证应根据服务器的功能在应用程序的每一层中执行。<br>要说明是，所有数据验证过程都必须在受信系统（服务器）上完成。</p><p>当应用程序处理用户数据时，默认情况下必须将提交的数据视为不安全，并且只有在进行了适当的安全检查后才可以接受。<br>还必须将数据源标识为可信或不可信，如果是不可信源，则必须进行验证检查。</p><p>在验证检查中，将根据一组条件检查用户输入，以确保用户确实输入了期望的数据。<br>如果验证失败，则拒绝输入。<br>这不仅从安全角度来看很重要，而且从数据一致性和完整性的角度来看也很重要，因为数据通常在各种系统和应用程序中使用。</p><p>Golang 标准库中其实有了很多可以用于检查输入的包，strconv 类型转换、strings 字符串处理、regexp 正则等。</p><h6 id="如何确保数据的有效性？"><a href="#如何确保数据的有效性？" class="headerlink" title="如何确保数据的有效性？"></a>如何确保数据的有效性？</h6><ol><li>白名单机制，尽可能根据白名单来验证输入</li><li>边界检查，数据长度均应进行验证</li><li>字符转义，用于特殊字符，例如独立的引号</li><li>数值验证</li><li>空字节</li><li>换行符</li><li>路径变更字符 <code>../ \\..</code></li><li>UTF-8 字符替代表示</li></ol><p>完成了这些检查，我们就能保证数据在一定程度上是有效的。</p><p>为什么说是一定程度上的，因为还没有做完呢。</p><p>如果用户输入的数据是用于读取文件的，那么是不是应该还需要检查一下文件，当然，还会有访问控制和权限管理，这些放到之后在讨论。</p><h6 id="数据完整性"><a href="#数据完整性" class="headerlink" title="数据完整性"></a>数据完整性</h6><p>主要还需要说一下数据源，当数据的来源可信度较低的时候，都应该进行一些检查，确保数据没有被篡改。</p><ol><li>一致性检查</li><li>唯一性检查（如果有的话）</li><li>哈希校验</li><li>引用完整性</li></ol><p>当然，对于数据完整性的内容还是推荐自己去看看，这里的主要内容还是 OWASP Top 10。</p><p>我们完成了输入验证，一般都还需要执行验证后的操作。<br>比如，告知用户提交的数据不符合要求，应该修改数据以符合要求的条件。<br>在这一步骤中，我们需要注意的一个题外话，OWASP Top 10 并不是威胁最大的漏洞，威胁最大的可能是社工。<br>比如，攻击者并不想进行注入攻击，他只想知道这个手机号是否是这个程序、网站的注册用户。<br>如果我们程序对于手机号、密码错误返回的提示不同（用户不存在、密码错误），那么攻击者实际上就已经拿到了他想要的信息。<br>一般情况下，推荐后端只返回失败，不告知具体原因。</p><p>言归正传，我们检查了数据，但是没有做安全处理，我们还需要给数据进行消毒。</p><h6 id="消毒是指删除、替换数据。"><a href="#消毒是指删除、替换数据。" class="headerlink" title="消毒是指删除、替换数据。"></a>消毒是指删除、替换数据。</h6><ol><li>比如在 html 中将 &lt; 转意为 &lt;</li><li>剥离 html 标签</li><li>某些场景下（文件名）替换非 ASCII 字符</li><li>删除换行符、制表符、多余的空格</li><li>URL 路径清理</li></ol><p>注入攻击一直不怎么好防御，因为多数情况下是需要维护一个老系统，很多地方不能更改，动起来都碍手碍脚的。<br>在这种情况下，除了上述方法还可以通过其他手段来达到目的。</p><ol><li>权限控制，比如对于某张表只能查、对于另一张表没有查权限</li><li>白名单不好整，黑名单还是能使的</li><li>弄个蜜罐，想怎么玩就怎么玩</li></ol>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;在应用程序安全性中，如果不处理用户输入及其相关数据，可能会带来安全风险。&lt;br&gt;而注入是使用最广泛，以及最古老和非常危险的漏洞之一，在 OWASP Top 10 从 2010 开始一直到现在都是第一，还是挺有趣的。&lt;/p&gt;
+&lt;p&gt;注入是将不受信任的数据作为命令或查询的一部分
+      
+    
+    </summary>
+    
+    
+    
+      <category term="OWASP" scheme="https://01.946771200.xyz/tags/OWASP/"/>
+    
+      <category term="Injection" scheme="https://01.946771200.xyz/tags/Injection/"/>
+    
+      <category term="网络安全" scheme="https://01.946771200.xyz/tags/%E7%BD%91%E7%BB%9C%E5%AE%89%E5%85%A8/"/>
+    
+      <category term="注入" scheme="https://01.946771200.xyz/tags/%E6%B3%A8%E5%85%A5/"/>
+    
+  </entry>
+  
+</feed>

@@ -1,0 +1,9 @@
+User-agent: *
+
+Disallow: /js/
+Disallow: /css/
+Disallow: /lib/
+Disallow: /404.html
+Disallow: /search.html
+
+Sitemap: https://01.946771200.xyz/sitemap.xml
